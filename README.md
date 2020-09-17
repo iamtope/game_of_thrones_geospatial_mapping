@@ -1,6 +1,6 @@
 # Game-Of-Thrones
 
-An interactive "Game of Thrones" map powered by Leaflet, PostGIS, and Redis.
+An interactive "Game of Thrones" map powered by  PostGIS, and Redis.
 
 #### Structure
 - `server/` - The Node.js API server code.

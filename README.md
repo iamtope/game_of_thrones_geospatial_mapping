@@ -1,10 +1,8 @@
-# Atlas-Of-Thrones
+# Game-Of-Thrones
 
 An interactive "Game of Thrones" map powered by Leaflet, PostGIS, and Redis.
 
 #### Structure
-- `app/` - The front-end web application source.
-- `public/` - The compiled and minified front-end code.
 - `server/` - The Node.js API server code.
 - `setup/` - A collection of scripts to download the shapefiles and setup the postgresql database.
 
@@ -17,7 +15,7 @@ The only extra step is adding a `.env` file in order to properly initialize the 
 Here's an example `.env` file with sensible defaults for local development -
 ```
 PORT=5000
-DATABASE_URL=postgres://patrick@localhost:5432/atlas_of_thrones?ssl=false
+DATABASE_URL=postgres://abassadamo:<password>@localhost:5432/game_of_thrones
 REDIS_HOST=localhost
 REDIS_PORT=6379
 CORS_ORIGIN=http://localhost:8080
